@@ -7,6 +7,12 @@ import os
 import math
 import re
 
+# Allow CDS API credentials via environment variable for cloud deployment
+_cds_key = os.environ.get("CDS_API_KEY")
+if _cds_key:
+    os.environ["CDSAPI_URL"] = "https://cds.climate.copernicus.eu/api"
+    os.environ["CDSAPI_KEY"] = _cds_key
+
 
 class FloodPredictor:
     def __init__(self):
