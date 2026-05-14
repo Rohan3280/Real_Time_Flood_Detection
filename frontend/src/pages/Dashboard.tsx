@@ -86,7 +86,7 @@ function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">HydroAlert</h1>
+              <h1 className="text-3xl font-bold text-gray-900">Real Time Flood Detection Model</h1>
               <p className="text-sm text-gray-600 mt-1">Flood Prediction & Risk Assessment System</p>
             </div>
             <div className="flex items-center gap-4">
@@ -173,7 +173,7 @@ function Dashboard() {
       <footer className="bg-white border-t border-gray-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-center text-sm text-gray-600">
-            FLUD - Flood Prediction System | Powered by ERA5 Weather Data & AI Analysis
+            Real Time Flood Detection Model | Powered by ERA5 Weather Data & AI Analysis
           </p>
         </div>
       </footer>
