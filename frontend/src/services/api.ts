@@ -21,6 +21,8 @@ export interface WeatherAnalysis {
     precipitation_mm?: number[]
     soil_moisture?: number[]
   }
+
+  
 }
 
 export interface SeverityLevel {
